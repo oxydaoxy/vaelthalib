@@ -176,13 +176,6 @@ function Vaeltha.new(title, subtitle)
 	})
 
 	-- window icon dot
-	create("Frame", {
-		Parent = self.Titlebar,
-		BackgroundColor3 = THEME.Accent,
-		Size = UDim2.new(0, 8, 0, 8),
-		Position = UDim2.new(0, 16, 0.5, -4),
-		ZIndex = 3,
-	}):CFrame = CFrame.new()
 	local dot = create("Frame", {
 		Parent = self.Titlebar,
 		BackgroundColor3 = THEME.Accent,
